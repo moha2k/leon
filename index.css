@@ -219,6 +219,7 @@ nav .container .links i{
     font-size: 60px;
     padding-bottom: 40px;
     padding-top: 30px;
+    background: rgb(237, 237, 237);
     
 }
 .Product span{
@@ -244,13 +245,19 @@ nav .container .links i{
 }
 @media (max-width: 991px) {
     .planning .plan{
+        flex-basis: 45%;
+    }
+    
+}
+@media (max-width:767px) {
+    .planning .plan{
         flex-basis: 100%;
     }
     
 }
 .planning .plan img{
-    width:370px;
-    height: 233px;
+/*     width:370px; */
+/*     height: 233px; */
     max-width: 100%;
 }
 .planning .plan div{
